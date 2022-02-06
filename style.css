@@ -66,5 +66,11 @@ body {
   border: 1px solid #ccc;
   padding-left: 10px;
   font-size: 14px;
+  border-bottom-width: 2px;
+  transition: all 0.5s ease;
 }
 
+.container .user-details .input-box input:focus,
+.container .user-details .input-box input:valid{
+  border-color: #53b1d6;
+}
